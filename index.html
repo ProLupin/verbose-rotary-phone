@@ -1,0 +1,137 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <center>
+        <h1 style="font-variant: small-caps; color:red; letter-spacing: 2px;">Case study between Google Lens and MobileNet</h1>
+        <br>
+        <h2 style=" font-variant: small-caps; letter-spacing: 2px;">Google Lens <img src="lens .png"></h2>
+        <br>
+        <h1 style="color:red;">vs</h1>
+        <br>
+        <br>
+        <h1 class="btn btn-primary heading">MobileNet</h1>
+        <hr>
+        <ol>
+            <div class="test_image_and_result1 col-xs-12">
+              <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="book.jpeg" class="img-responsive">
+              </li>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Google Lens</b> - 
+                <span style="color:red;">Book </span>
+              </h5>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Mobilenet Model </b> - 
+                <span style="color:red;"> Pillow</span>
+              </h5>
+              <div class="mini_result" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Google Lens is more accurate. </h4>
+              </div>
+            </div>
+
+
+            <div class="test_image_and_result1 col-xs-12">
+              <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="iphone.jpeg" class="img-responsive">
+              </li>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Google Lens</b> - 
+                <span style="color:red;">Iphone</span>
+              </h5>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Mobilenet Model </b> - 
+                <span style="color:red;">Cellular phone</span>
+              </h5>
+              <div class="mini_result" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Draw</h4>
+              </div>
+            </div>
+
+
+            <div class="test_image_and_result1 col-xs-12">
+              <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="shoe.jpeg" class="img-responsive">
+              </li>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Google Lens</b> - 
+                <span style="color:red;">Shoes</span>
+              </h5>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Mobilenet Model </b> - 
+                <span style="color:red;">Running Shoes</span>
+              </h5>
+              <div class="mini_result" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Draw</h4>
+              </div>
+            </div>
+
+
+            <div class="test_image_and_result1 col-xs-12">
+              <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="soap.jpeg" class="img-responsive">
+              </li>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Google Lens</b> - 
+                <span style="color:red;">Soap</span>
+              </h5>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Mobilenet Model </b> - 
+                <span style="color:red;">Kimono</span>
+              </h5>
+              <div class="mini_result" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Google Lens is more accurate </h4>
+              </div>
+            </div>
+
+
+            <div class="test_image_and_result1 col-xs-12">
+              <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="water bottle.jpeg" class="img-responsive">
+              </li>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Google Lens</b> - 
+                <span style="color:red;">Water Bottle</span>
+              </h5>
+              <h5 class="first col-sm-4 col-xs-12">
+                Output on <b style="color:purple;">Mobilenet Model </b> - 
+                <span style="color:red;">Ski Mask</span>
+              </h5>
+              <div class="mini_result" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4> Google Lens is more accurate</h4>
+              </div>
+            </div>
+            </ol>
+          </div>
+<div class="copy_right_footer">
+Developed By: Shreya Jha
+</div>
+    </center>
+  </body>
+  </html>

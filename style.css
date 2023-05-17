@@ -1,0 +1,29 @@
+.heading{
+    font-size:23px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+.copy_right_footer{
+    background-color: grey;
+    color: white;
+    line-height:3;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    text-align: center;
+  }
+  .test_image_and_result1{
+    background-color: grey;
+    border-radius: 20px;
+    padding:40px;
+    margin-bottom:20px;
+    color:white;
+    font-family: monospace;
+    font-size: 18px;
+  }
+  .first{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+  }
